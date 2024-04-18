@@ -59,7 +59,7 @@ font: size 19px; ;
           
                     padding: 10px 10px;
                     outline:none ;
-                    background:#dd5e2b;
+                    background: #854a34;
                     border-top-right-radius: 5px;
                     border-bottom-right-radius: 5px;
                     width: 50px;
@@ -73,8 +73,8 @@ font: size 19px; ;
          
                      .header .mid_header .search_box button:hover{
                      
-                        background: #f2e82e;
-                        color:#dd5e2b ;
+                        background: #ffcbb8;
+                        color:#854a34 ;
                     
                     }
 
@@ -98,7 +98,61 @@ font: size 19px; ;
                     background:none ;
                     cursor: pointer;
                 }
-            
-     
-
-        
+.header .last_header {
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    background: #c19a6b;
+    justify-content: space-between;
+}
+.header .last_header .user_profile {
+    display: flex;
+    margin-top: 10px;
+}
+.header .last_header .user_profile .icon {
+    padding: 10px 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+.header .last_header .user_profile .info {
+    margin-left: 10px;
+}    
+.header .last_header .user_profile .info h2 {
+    color: #35281e;
+    font-size: 18px;
+}
+.header .last_header .user_profile .info p {
+    color: #9b0047;
+    font-size: 14px;
+}
+.header .last_header .nav {
+    margin-top: 10px;
+}
+.header .last_header .nav ul {
+    display: flex;
+}
+.header .last_header .nav ul li {
+    list-style: none;
+}
+.header .last_header .nav ul li .link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #f6dfe0;
+    font-weight: 600;
+}
+.header .last_header .nav ul li .link:hover {
+    color: #35281e;
+}
+.header .last_header .offer {
+    margin-right: 20px;
+    padding: 15px 20px;
+    background: #9b0047;
+    border-radius: 10px;
+}
+.header .last_header .offer p {
+    margin-top: 2.5px;
+    text-transform: uppercase;
+    color: #e19b9f;
+    font-weight: 600;
+    font-size: 14px;
+}
